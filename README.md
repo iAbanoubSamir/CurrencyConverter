@@ -1,9 +1,11 @@
 # Currency Converter Android App
 Android App that allows you to convert from currency to another with just one click.
 <br>
+
 ## Description:
 An Android application through which you can convert between currencies, just specify the amount, then choose the currency you want to convert from, the currency you want to convert to, and press convert, the result will appear to you, that's it.
 <br>
+
 ## Built with:
 - Kotlin
 - MVVM Architecture (Model-View-ViewModel)
@@ -14,7 +16,8 @@ An Android application through which you can convert between currencies, just sp
 - Retrofit + Gson
 - ViewBinding
 <br>
-### Licence
+
+### License
 <pre><code>Copyright 2022 Abanoub Samir
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
