@@ -56,8 +56,6 @@ dependencies {
     // Dagger - Hilt
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_viewmodel_version"
-    kapt "androidx.hilt:hilt-compiler:$hilt_compiler_version"
 
     // Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
@@ -66,6 +64,9 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$gson_version"
     implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+
+    // Fragment KTX
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
 
 }
 
