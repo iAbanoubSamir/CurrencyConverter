@@ -3,16 +3,11 @@ package com.abanoub.currencyconverter.data.model
 import com.google.gson.annotations.SerializedName
 
 data class RateResponse(
-    @SerializedName("motd") var motd: Motd? = Motd(),
     @SerializedName("success") var success: Boolean? = null,
+    @SerializedName("timestamp") var timestamp: Int? = null,
     @SerializedName("base") var base: String? = null,
     @SerializedName("date") var date: String? = null,
     @SerializedName("rates") var rates: Rates? = Rates()
-)
-
-data class Motd(
-    @SerializedName("msg") var msg: String? = null,
-    @SerializedName("url") var url: String? = null
 )
 
 data class Rates(
@@ -41,13 +36,13 @@ data class Rates(
     @SerializedName("BTN") var BTN: Double? = null,
     @SerializedName("BWP") var BWP: Double? = null,
     @SerializedName("BYN") var BYN: Double? = null,
+    @SerializedName("BYR") var BYR: Double? = null,
     @SerializedName("BZD") var BZD: Double? = null,
     @SerializedName("CAD") var CAD: Double? = null,
     @SerializedName("CDF") var CDF: Double? = null,
     @SerializedName("CHF") var CHF: Double? = null,
     @SerializedName("CLF") var CLF: Double? = null,
     @SerializedName("CLP") var CLP: Double? = null,
-    @SerializedName("CNH") var CNH: Double? = null,
     @SerializedName("CNY") var CNY: Double? = null,
     @SerializedName("COP") var COP: Double? = null,
     @SerializedName("CRC") var CRC: Double? = null,
@@ -104,6 +99,8 @@ data class Rates(
     @SerializedName("LKR") var LKR: Double? = null,
     @SerializedName("LRD") var LRD: Double? = null,
     @SerializedName("LSL") var LSL: Double? = null,
+    @SerializedName("LTL") var LTL: Double? = null,
+    @SerializedName("LVL") var LVL: Double? = null,
     @SerializedName("LYD") var LYD: Double? = null,
     @SerializedName("MAD") var MAD: Double? = null,
     @SerializedName("MDL") var MDL: Double? = null,
@@ -112,7 +109,7 @@ data class Rates(
     @SerializedName("MMK") var MMK: Double? = null,
     @SerializedName("MNT") var MNT: Double? = null,
     @SerializedName("MOP") var MOP: Double? = null,
-    @SerializedName("MRU") var MRU: Double? = null,
+    @SerializedName("MRO") var MRO: Double? = null,
     @SerializedName("MUR") var MUR: Double? = null,
     @SerializedName("MVR") var MVR: Double? = null,
     @SerializedName("MWK") var MWK: Double? = null,
@@ -148,9 +145,7 @@ data class Rates(
     @SerializedName("SLL") var SLL: Double? = null,
     @SerializedName("SOS") var SOS: Double? = null,
     @SerializedName("SRD") var SRD: Double? = null,
-    @SerializedName("SSP") var SSP: Double? = null,
     @SerializedName("STD") var STD: Double? = null,
-    @SerializedName("STN") var STN: Double? = null,
     @SerializedName("SVC") var SVC: Double? = null,
     @SerializedName("SYP") var SYP: Double? = null,
     @SerializedName("SZL") var SZL: Double? = null,
@@ -168,7 +163,7 @@ data class Rates(
     @SerializedName("USD") var USD: Double? = null,
     @SerializedName("UYU") var UYU: Double? = null,
     @SerializedName("UZS") var UZS: Double? = null,
-    @SerializedName("VES") var VES: Double? = null,
+    @SerializedName("VEF") var VEF: Double? = null,
     @SerializedName("VND") var VND: Double? = null,
     @SerializedName("VUV") var VUV: Double? = null,
     @SerializedName("WST") var WST: Double? = null,
@@ -178,11 +173,10 @@ data class Rates(
     @SerializedName("XCD") var XCD: Double? = null,
     @SerializedName("XDR") var XDR: Double? = null,
     @SerializedName("XOF") var XOF: Double? = null,
-    @SerializedName("XPD") var XPD: Double? = null,
     @SerializedName("XPF") var XPF: Double? = null,
-    @SerializedName("XPT") var XPT: Double? = null,
     @SerializedName("YER") var YER: Double? = null,
     @SerializedName("ZAR") var ZAR: Double? = null,
+    @SerializedName("ZMK") var ZMK: Double? = null,
     @SerializedName("ZMW") var ZMW: Double? = null,
     @SerializedName("ZWL") var ZWL: Double? = null
 )
