@@ -10,11 +10,18 @@ An Android application through which you can convert between currencies, just sp
 - Kotlin
 - MVVM Architecture (Model-View-ViewModel)
 - Repository Pattern
-- ViewModel + Live Data
+- ViewModel
+- StateFlow
 - Dagger-Hilt
 - Coroutines
 - Retrofit + Gson
 - ViewBinding
+<br>
+
+## Screenshot
+<div align="center">
+    <img src="/Home_Screenshot.png?raw=true" width="400px height="400px"</img> 
+</div>
 <br>
 
 ### License
