@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.abanoub.currencyconverter">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".CurrencyApplication"
         android:allowBackup="true"
