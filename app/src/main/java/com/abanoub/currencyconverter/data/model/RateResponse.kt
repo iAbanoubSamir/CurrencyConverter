@@ -57,7 +57,7 @@ data class Rates(
     @SerializedName("EGP") var EGP: Double? = null,
     @SerializedName("ERN") var ERN: Double? = null,
     @SerializedName("ETB") var ETB: Double? = null,
-    @SerializedName("EUR") var EUR: Int? = null,
+    @SerializedName("EUR") var EUR: Double? = null,
     @SerializedName("FJD") var FJD: Double? = null,
     @SerializedName("FKP") var FKP: Double? = null,
     @SerializedName("GBP") var GBP: Double? = null,

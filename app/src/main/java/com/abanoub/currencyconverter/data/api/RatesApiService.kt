@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface RatesApiService {
 
     @GET("latest")
-    fun getRates(
+    suspend fun getRates(
         @Query("apikey") apiKey: String,
         @Query("base") base: String
     ): Response<RateResponse>
